@@ -1,7 +1,10 @@
-name: GladePvP
+name: GladeTag
 version: ${project.version}
-main: com.thegladenetwork.gladepvp.GladePvP
+main: com.thegladenetwork.gladepvp.GladeTag
 api-version: 1.13
 authors: [JezCam, Amaterasu]
-description: Custom PvP plugin for The Glade Minecraft server
+description: Custom tag plugin for The Glade Minecraft server
 website: thegladeserver.com
+commands:
+  Kit:
+    description: Get tag kit
